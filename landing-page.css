@@ -1,0 +1,211 @@
+.topsec{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding:0px 20px;
+}
+
+.topsec span{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.crtvideo{
+    width: 160px;
+    height: 110px;
+    position: absolute;
+    right: 20px;
+    z-index: 11;
+    top: 55px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.crtdots{
+    width: 320px;
+    height: 220px;
+    position: absolute;
+    right: 20px;
+    z-index: 11;
+    top: 55px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.crtnotice{
+    width: 470px;
+    height: 620px;
+    position: absolute;
+    right: 20px;
+    z-index: 11;
+    top: 55px;
+    padding: 10px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.user{
+    width: 350px;
+    height: 720px;
+    position: absolute;
+    right: 20px;
+    z-index: 11;
+    top: 55px;
+    padding: 10px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.userpic{
+    background-image: url("img.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.crtdots i{
+    color: red;
+    font-size: 30px;
+}
+
+.fa-youtube{
+    color: red;
+    font-size: 30px;
+}
+
+.fa-bars{
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.topsec input{
+    width: 500px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.search{
+    display: inline-block;
+    padding: 10px 30px;
+    height: 39px;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+.fa-microphone{
+    border: 1px solid rgb(247, 247, 247);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.topsec img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.lefSideBar{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    z-index: 1;
+    display: inline-block;
+}
+
+.secsection{
+    height: 60px;
+    border-top: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);
+    z-index: 5;
+    position: absolute;
+    width: 86.8%;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secsection span{
+    padding: 5px 20px;
+    margin-right:7px;
+    border-radius: 15px;
+    background-color: rgb(241, 241, 241);
+}
+
+.videos{
+    position: absolute;
+    width: 86.8%;
+    height: 100vh;
+    top: 139px;
+    left: 250px;
+    display: inline-block;
+    background-color: rgb(252, 252, 252);
+    padding: 30px 50px;
+}
+
+.video{
+    height: 342px;
+    width: 360px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.videopic{
+    height: 260px;
+    width: 100%;
+    background-image: url("photo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.noticepic{
+    background-image: url("pic1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.noticepicright{
+    background-image: url("photo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75px;
+    width: 85px;
+}
+
+.desc{
+    width: 100%;
+    height: 100px;
+    padding-top: 6px;
+    padding-left: 13px;
+}
+
+.descpic{
+    width: 40px;
+    height: 40px;
+    background-image: url("pic1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.desctext{
+    display: inline-block;
+}
+
+.more{
+    display: none;
+}
+
+.morebtnup{
+    display: none;
+}
